@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --brand-color:#5c4033;
+    --grean :#026E46;
+    --light:#FFECCE;
+    --gray: #f0f0f0;
+    --white:#fff;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Poppins', sans-serif; 
+     
+}
+
+header{
+  overflow: hidden;
+}
+.container{
+  width: 100%;
+  min-height: 100vh;
+overflow: hidden;
+   position: relative;
+}
+#nav-header{
+  background: var(--brand-color);
+}
+#About{
+   background: var(--light);
+   border-radius: 0 0 60px 60px;
+   color: var(--brand-color);
+}
+.bar{
+  color: var(--brand-color);
+}
+.side-icons{
+background: var(--brand-color);
+}
+.side-icons a {
+  transition: transform 0.3s ease;
+  color: var(--gray);
+}
+
+.side-icons a:hover {
+  transform: translateY(-5px); 
+  color: var(--grean);
+}
+
+
+.card{
+background: var(--brand-color);
+
+}
+.imagee{
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+.imagee:hover{
+  transform: scale(1.07);
+}
+.conta{
+  background: var(--light);
+   border-radius: 60px 60px 0 0;
+   color: var(--brand-color);
+   
+}
+.icon{
+  color: var(--brand-color);
+  text-decoration: none;
+}
+.icon:hover{
+  color: var(--grean);}
+ footer{
+  background: var(--brand-color);
+
+ }
+
+.icon-footer:hover{
+  color: var(--grean);
+ }
